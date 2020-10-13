@@ -1,0 +1,20 @@
+{
+  "name": "dev_boot_camp",
+  "version": "1.0.0",
+  "description": "Dev Boot Camp backend API",
+  "main": "server.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5"
+  },
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "test": "none",
+    "dev": "nodemon server"
+  },
+  "author": "Eric D. Torres",
+  "license": "MIT"
+}
